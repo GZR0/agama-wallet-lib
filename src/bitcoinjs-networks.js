@@ -2514,6 +2514,17 @@ const networks = {
     pubKeyHash: 0x26,
     wif: 0xa6,
   },
+  gravitygzrocoin: {
+    messagePrefix: '\x18Gravity Signed Message:\n',
+    bip44: 50,
+    bip32: {
+      public: 0x0488b21e,
+      private: 0x0488ade4,
+    },
+    pubKeyHash: 0x38,
+    scriptHash: 0x85,
+    wif: 0xa6,
+  }, 
   gridcoinresearch: {
     messagePrefix: '\u0018GridcoinResearch Signed Message:\n',
     pubKeyHash: 0x3e,
